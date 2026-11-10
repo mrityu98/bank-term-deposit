@@ -73,7 +73,7 @@ export default function App() {
         };
 
         try {
-            const response = await fetch('https://bank-term-deposit.onrender.com', {
+            const response = await fetch('https://bank-term-deposit.onrender.com/predict', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(payload)
